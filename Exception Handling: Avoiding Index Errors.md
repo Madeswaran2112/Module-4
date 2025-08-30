@@ -11,8 +11,25 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
+```
+
+
+try:
+    # Taking 3 elements input from the user
+    L = []
+    for i in range(3):
+        item = ['laptop','mobile','pen']
+        L.append(item)
+
+    # Trying to access index 4
+    print(L[4])
+
+except IndexError:
+    print("check index range")
+```
 
 ## Output
+<img width="957" height="246" alt="483846944-4bc4a49f-80c2-4465-896f-e7b4d5d89d8a" src="https://github.com/user-attachments/assets/e94fc9d7-d2d1-4ebd-a908-593d01bbf72a" />
 
 ## Result
+Thus the program executed successfully.
